@@ -14,7 +14,7 @@ app.use(express.urlencoded({extended:true}))
 
 app.use(cors({
     credentials:true, 
-    origin: "https://clearcutblogs.vercel.app/",
+    origin: ["https://clearcutblogs.vercel.app/"],
     methods:["POST","GET"]
 }))
 
